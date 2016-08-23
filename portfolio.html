@@ -1,0 +1,126 @@
+<meta charset="UTF-8"/>
+<style>
+/*
+powered by : Belm Assem
+www.fb.com/Belm.assem
+*/
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+*{
+  margin:0;
+  padding:0;
+  font-family:Droid Arabic Kufi;
+}
+
+
+/*
+Width of image : 500;
+Width of hovered image: 500
+Width of unhovered image: 25x;
+Width of container : 500 + 50*4 = 700px;
+Default 700/5 : 140px;
+*/
+
+.accordian{
+  width: 705px;
+  height: 333px;
+  overflow:hidden;
+  
+  margin: 100px auto;
+  -webkit-box-shadow: 0 8px 6px -6px black;
+  -moz-box-shadow: 0 8px 6px -6px black;
+  box-shadow: 0px 8px 6px -6px black;
+}
+.accordian ul{
+  
+}
+.accordian li{
+  position: relative;
+  display:block;
+  width:140px;
+  float: left;
+  
+  border-left: 1px solid #888;
+  -webkit-box-shadow: 0 0 25px 10px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0 0 25px 10px rgba(0,0,0,0.5);
+  
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+}
+
+
+.accordian ul:hover li{
+  width: 50px;
+}
+
+.accordian ul li:hover{
+  width:500px;
+}
+
+.accordian li img{
+  display: block;
+}
+
+.image_title{
+  background: rgba(0,0,0,0.5);
+  position:absolute;
+  left:0;
+  top:0;
+  width:500px;
+}
+
+.image_title a{
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding:20px;
+  font-size:16px;
+}
+
+
+
+</style>
+<div class="accordian">
+  <ul>
+    <li>
+      <div class="image_title">
+        <a href="#">Coding</a>
+      </div>
+      <a href="#">
+     <img src="https://images.alphacoders.com/511/511052.jpg" width="500" height="374">
+			</a>
+    </li>
+       <li>
+      <div class="image_title">
+        <a href="#">anime - 91Days</a>
+      </div>
+      <a href="#">
+     <img src="https://images.alphacoders.com/727/727536.png" width="500" height="374">
+			</a>
+    </li>
+          <li>
+      <div class="image_title">
+        <a href="#">Wallpaper</a>
+      </div>
+      <a href="#">
+     <img src="https://images.alphacoders.com/724/724203.jpg" width="500" height="374">
+			</a>
+    </li>
+             <li>
+      <div class="image_title">
+        <a href="#">Al-Aqsa</a>
+      </div>
+      <a href="#">
+     <img src="https://images4.alphacoders.com/654/654864.png" width="500" height="374">
+			</a>
+    </li>
+                <li>
+      <div class="image_title">
+        <a href="http://www.facebook.com/belm.assem">Belm assem</a>
+      </div>
+      <a href="http://www.facebook.com/belm.assem">
+     <img src="http://i.imgur.com/rG9kFvj.gif" width="500" height="374">
+			</a>
+    </li>
+  </ul>
+</div>
